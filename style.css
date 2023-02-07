@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,15 +12,16 @@ body{
     background-color: #21B66F;
 }
 
-.chronometre{
+.chronometre {
     background-color: #fff;
+    border: 2px solid rgb(229, 255, 0);
     padding: 30px;
     border-radius: 40px 0 40px 0;
     width: 400px;
     text-align: center;
 }
 
-.tim{
+.tim {
     margin: auto;
     width: 100%;
     border: 1px solid #999;
@@ -32,12 +33,24 @@ body{
     margin-bottom: 20px;
 }
 
-.tim span{
+.tim span {
     padding: 5px;
 }
 
-.controls{
+.controls {
     display: flex;
     width: 100%;
     justify-content: space-around;
+}
+
+button {
+    border: none;
+}
+
+button :hover {
+    border-radius: 10px;
+    background-color: #21B66F;
+    transform: scale(1.1);
+    transition: 0.5s;
+
 }

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
     <title>Chronometre</title>
 </head>
 
@@ -18,11 +19,13 @@
             <span>0 ms</span>
         </div>
         <div class="controls">
-            <button id="start">
-                <img src="/assets/img/start.png" alt="">
+            <button id="start" onclick="start()">
+                <img src="/assets/img/start.png" alt=""> play
             </button>
-            <button id="stop"><img src="/assets/img/stop.png" alt=""></button>
-            <button id="reset"><img src="/assets/img/reset.png" alt=""></button>
+            <button id="stop" onclick="stop()">
+                <img src="/assets/img/stop.png" alt="">stop</button>
+            <button id="reset" onclick="reset()">
+                <img src="/assets/img/reset.png" alt="">reset</button>
         </div>
     </div>
 </body>

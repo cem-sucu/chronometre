@@ -45,6 +45,8 @@ body {
 
 button {
     border: none;
+    display: grid;
+
 }
 
 button :hover {
